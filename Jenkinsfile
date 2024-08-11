@@ -10,8 +10,6 @@ pipeline {
 
         stage('Build') {
             steps {
-                echo 'Building...'
-                // Example build step
                 sh 'echo Building the project...'
             }
         }
